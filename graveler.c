@@ -14,8 +14,7 @@ int main(int argc, char **argv) {
     int i, trials, ones, max_ones;
 
     for (trials = 0, max_ones = 0; trials < MAX_TRIALS && max_ones < REQUIRED_ONES; trials++) {
-        ones = 0;
-        for (i = 0; i < ROLLS_PER_TRIAL; i++) {
+        for (i = 0, ones = 0; i < ROLLS_PER_TRIAL; i++) {
             if (!(rand() % 4)) {
                 ones++;
             }
