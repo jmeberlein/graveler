@@ -1,0 +1,3 @@
+Yeah, I considered adding a proper makefile, but it wound up feeling like overkill. Also, the output was cleaner when I manually ran `time` anyway.
+
+At any rate, just run `gcc graveler.c` to compile the code, and `time ./a.out` to run it *and* time the execution.
